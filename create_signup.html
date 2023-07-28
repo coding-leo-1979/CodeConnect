@@ -1,0 +1,32 @@
+<!--create_signup.html-->
+<!--회원가입 페이지-->
+<!--
+    프론트엔드 작업: 비밀번호를 재확인하는 필드인 "PASSWORD CHECK"와 비밀번호 필드인 "PASSSWORD"의 내용이
+    같지 않다면,"PASSWORD CHECK" 박스의 오른쪽에 빨간 동그라미를 출력하고,
+    같다면 초록 동그라미 생성하기.
+    굳이 동그라미일 필요는 없음. 다만 비밀번호가 같지 않다는 걸 어떻게든 웹페이지 상에 표시해주면 됨.
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SIGN UP</title>
+  </head>
+  <body>
+    <h3>SIGN UP</h3>
+    <script>
+      function ToIndex(){
+        location.href='index.html'
+      }
+    </script>
+      <form action="process_create_signup.php" method="POST">
+        <p><input type="text" name="UID" placeholder="ID"></p>
+        <p><input type="text" name="PW" placeholder="PASSWORD"></p>
+        <p><input type="password" name="PW2" placeholder="PASSWORD CHECK"></p>
+        <p><input type="text" name="NICKNAME" placeholder="NICKNAME"></p>
+        <p><input type="text" name="NAME" placeholder="NAME"></p>
+        <input type="number" name="BIRTHYEAR" placeholder="BIRTHYEAR">
+        <p><input type="submit" value="CREATE ACCOUNT">
+        <input type="button" onclick="ToIndex()" value="CANCEL"></p>
+      </form>
+  <body>
+</html>
