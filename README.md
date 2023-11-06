@@ -1,10 +1,8 @@
 # FORZA_blog
-# SpringBoot-Project-MEGABOX
-스프링 부트 + JSP 파싱_영화 예매 사이트
-
+숙명여자대학교 소프트웨어학부 학회 FORZA  웹 프로젝트 
 
 ## 🖥️ 프로젝트 소개
-MEGA BOX를 참고하여 만든 영화 예매 사이트입니다.
+블로그입니다. 
 <br>
 
 ## 🕰️ 개발 기간
