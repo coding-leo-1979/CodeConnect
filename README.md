@@ -1,24 +1,26 @@
 # CodeConnect
 숙명여자대학교 소프트웨어학부 학회 FORZA  웹 프로젝트
+<br><br>
 
-
-# 🖥️ 프로젝트 소개
+### 🖥️ 프로젝트 소개
 개발 공부한 내용을 올리고 정보를 공유하는 컨셉의 블로그를 만드는 프로젝트입니다. 
-<br>
+<br><br>
 
-# 🕰️ 개발 기간
-* 23.0.26일 - 22.05.24일
+### 🕰️ 개발 기간
+23.07.09일 - 
+<br><br>
 
-# 🧑‍🤝‍🧑 맴버구성
+### 🧑‍🤝‍🧑 맴버구성
  - 팀원1 : 김혜진 <a href="https://github.com/kimhyejin0123" target="_blank"><img src="https://img.shields.io/badge/Github_Blog-f5f5dc?style=flat&logo=githubpages&logoColor=222222"/></a>
  - 팀원2 : 배예진 <a href="https://github.com/coding-leo-1979" target="_blank"><img src="https://img.shields.io/badge/Github_Blog-f5f5dc?style=flat&logo=githubpages&logoColor=222222"/></a>
  - 팀원3 : 장세희 <a href="https://github.com/coding-leo-1979" target="_blank"><img src="https://img.shields.io/badge/Github_Blog-f5f5dc?style=flat&logo=githubpages&logoColor=222222"/></a>
-
+<br><br>
 
 ### ⚙️ 개발 환경
 - `PHP`
 - `HTML/CSS`
 - **Database** : MariaDB
+<br><br>
 
 ## 📌 주요 기능
 #### 로그인 - <a href="https://github.com/chaehyuenwoo/SpringBoot-Project-MEGABOX/wiki/%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5-%EC%86%8C%EA%B0%9C(Login)" >상세보기 - WIKI 이동</a>
