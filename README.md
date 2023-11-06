@@ -1,5 +1,5 @@
 # CodeConnect
-숙명여자대학교 소프트웨어학부 학회 FORZA  웹 프로젝트
+숙명여자대학교 소프트웨어학부 학회 FORZA에서 진행한 소규모 웹 프로젝트
 <br><br>
 
 ### 🖥️ 프로젝트 소개
@@ -10,16 +10,16 @@
 23.07.09일 - 
 <br><br>
 
-### 🧑‍🤝‍🧑 맴버구성
+### 🧑‍🤝‍🧑 멤버 구성
  - 팀원1 : 김혜진 <a href="https://github.com/kimhyejin0123" target="_blank"><img src="https://img.shields.io/badge/Github_Blog-f5f5dc?style=flat&logo=githubpages&logoColor=222222"/></a>
  - 팀원2 : 배예진 <a href="https://github.com/coding-leo-1979" target="_blank"><img src="https://img.shields.io/badge/Github_Blog-f5f5dc?style=flat&logo=githubpages&logoColor=222222"/></a>
  - 팀원3 : 장세희 <a href="https://github.com/coding-leo-1979" target="_blank"><img src="https://img.shields.io/badge/Github_Blog-f5f5dc?style=flat&logo=githubpages&logoColor=222222"/></a>
 <br><br>
 
 ### ⚙️ 개발 환경
+- `HTML` `CSS` `JavaScript`
 - `PHP`
-- `HTML/CSS`
-- **Database** : MariaDB
+- Database : `MariaDB`
 <br><br>
 
 ## 📌 주요 기능
