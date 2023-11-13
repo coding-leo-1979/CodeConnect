@@ -1,0 +1,19 @@
+
+
+@import url('mainboard.css'); /*메인보드 css파일 스타일 불러오기*/
+
+
+.article {
+    padding: 20px;
+    background-color: #FFF2F2;
+}
+td {
+    text-align: left;
+    word-wrap: break-word;
+    max-width: 960px;
+}
+.react-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

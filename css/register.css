@@ -1,0 +1,86 @@
+body {
+    background-color: #FFF2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 왼쪽 정렬으로 변경 */
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.input-container input {
+    border: 1px solid #7286D3;
+    border-radius: 4px;
+    padding: 5px;
+    width: 410px;
+    height: 30px;
+}
+
+.input-container button {
+    border: 0;
+    border-radius: 4px;
+    margin-left: 10px;
+    width: 150px;
+    height: 30px;
+    background-color: #7286D3;
+    color: #FFF2F2;
+    cursor: pointer;
+}
+
+.msg {
+    background-color: #E5E0FF;
+    border-radius: 4px;
+    margin-left: 10px;
+    display: inline-block;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#passwordMatchIcon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.green {background-color: green;}
+.red {background-color: red;}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-container button {
+    border: 0;
+    border-radius: 4px;
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: #7286D3;
+    color: #FFF2F2;
+    cursor: pointer;
+}
+
+.button-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

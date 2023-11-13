@@ -1,0 +1,119 @@
+body {
+    margin: 0; padding: 0;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 250px 1fr 250px;
+    grid-template-rows: 1fr 5fr;
+    grid-template-areas:
+    "banner banner banner"
+    "category main user"
+    "category main user"
+    "category main user"
+    "category main user"
+    ;
+    font-size: 18px; /* 모든 글자의 폰트 크기 */
+}
+
+.banner, .category, .main, .user {
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    line-height: 100px;
+    margin: 0;
+}
+h2 {
+    line-height: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+button {
+    width: 200px;
+    height: 40px;
+    border: 0px;
+    border-radius: 4px;
+    margin: 5px;
+    background-color: #7286D3;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, cursor 0.3s;
+}
+button:hover {
+    cursor: pointer;
+}
+ul{
+    padding: 0px; margin: 5px;
+}
+li {
+    list-style: none;
+    text-align: left;
+    border: 3px solid #7286D3;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#logout {background-color: #FF9B9B;}
+#write {background-color: #A0C49D;}
+.showNickname{text-align: center;}
+
+.banner {
+    background-color: #7286D3;
+    grid-area: banner;
+}
+.category {
+    background-color: #E5E0FF;
+    grid-area: category;
+}
+.main {
+    background-color: #FFF2F2;
+    grid-area: main;
+}
+.user {
+    background-color: #E5E0FF;
+    grid-area: user;
+}
+
+table {
+    border-collapse: collapse;
+    border: none;
+    width: 100%;
+    margin-top: 5px;
+}
+th, td {
+    border: none;
+    padding: 7.5px;
+    text-align: center;
+}
+th {
+    background-color: #7286D3;
+    color: white;
+    text-align: center;
+}
+tr {
+    border-bottom: 3px solid #7286D3;
+}
+.title_cursor:hover{
+    cursor: pointer;
+}
+.table_title {
+    text-align: left;
+}
+.table_no {width: 80px;}
+.table_title {width: 600px;}
+.table_date {width: 120px;}
+.table_etc {width: 60px;}
+.pagination {
+    margin-top: 20px;
+}
+.pagination a {
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    color: #333;
+}
