@@ -23,7 +23,7 @@ if (isset($_GET['post_id'])) {
     // 조회수 증가 처리
     $updateViewsQuery = "UPDATE posts SET views = views + 1 WHERE id = $post_id";
     $conn->query($updateViewsQuery);
-    
+
     // 선택한 글의 내용 가져오기
     $query = "SELECT * FROM posts WHERE id = $post_id";
     $result = $conn->query($query);
@@ -34,7 +34,7 @@ if (isset($_GET['post_id'])) {
         $category_id = $row['category_id'];
         $author_id = $row['author_id'];
         $title = $row['title'];
-        $content = $row['content'];   
+        $content = $row['content'];
         $created_at = $row['created_at'];
         $views = $row['views'];
         $likes = $row['likes'];
@@ -43,7 +43,7 @@ if (isset($_GET['post_id'])) {
         // 해당 글이 없을 경우 처리
         header('Location: mainboard.php');
         exit();
-    }    
+    }
 } else {
     // post_id가 전달되지 않았을 경우 처리
     header('Location: mainboard.php');
@@ -88,7 +88,7 @@ if ($result->num_rows > 0) {
                 <li><a href="?category=<?php echo $category['id']; ?>"><?php echo $category['name']; ?></a></li>
             <?php endforeach; ?>
         </ul>
-        
+
         <button onclick="window.location.href='addCategory.php'">카테고리 추가하기</button>
         <button onclick="window.location.href='editCategory.php'">카테고리 편집하기</button>
     </div>
@@ -102,7 +102,7 @@ if ($result->num_rows > 0) {
                     <button style="width: 120px;"><a href="edit.php?post_id=<?php echo $id ?>" style="color: white;">수정</a></button>
                 </td>
                 <td style="text-align: right; padding-right: 0px">
-                    
+
                     <button style="width: 120px;"><a href="delete.php?post_id=<?php echo $id ?>" style="color: white;">삭제</a></button>
                 </td>
             </tr>
@@ -122,8 +122,8 @@ if ($result->num_rows > 0) {
         </table>
         <br>
         <!--좋아요, 싫어요-->
-        <div class="react-container">        
-            <button class="likes"><?php echo $likes;?> 좋아요</button>
+        <div class="react-container">
+            <button class="likes"><a href="likes.php?post_id=<?php echo $id ?>"><?php  echo $likes;?> 좋아요</a></button>
             <button class="dislikes"><?php echo $dislikes;?> 싫어요</button>
         </div>
     </div>
